@@ -1,0 +1,51 @@
+body{
+  background-color: blueviolet;
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;
+background-color: black;
+border-radius: 100px;
+border-style: groove;
+position: fixed;
+width: 700px;
+}
+h2, h3{
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+text-align: center;
+background-color: aliceblue;
+border-style: groove;
+border-radius: 100px;
+}
+
+ul{
+font-style: italic;
+font-size: medium;
+}
+p{
+color: aliceblue;
+text-align: justify;
+}
+li{
+color: aliceblue;
+text-align: center
+}
+li:hover{
+    background-color: black;
+}
+
+a{
+color: aliceblue;
+}
+a:hover{
+    background-color: black;
+}
+img{
+    border-radius: 100px;
+    margin-left: 250px; 
+}
+
+
