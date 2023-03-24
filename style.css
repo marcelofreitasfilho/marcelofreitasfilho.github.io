@@ -8,10 +8,12 @@ color: aliceblue;
 background-color: black;
 border-radius: 100px;
 border-style: groove;
+border: 5px solid white;
 position: fixed;
-width: 700px;
+width: 1300px;
 }
 h2, h3{
+ font-size: x-large;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
@@ -19,6 +21,7 @@ text-align: center;
 background-color: aliceblue;
 border-style: groove;
 border-radius: 100px;
+border: 5px solid black;
 }
 
 ul{
@@ -28,13 +31,16 @@ font-size: medium;
 p{
 color: aliceblue;
 text-align: justify;
+font-size: x-large;
 }
 li{
 color: aliceblue;
-text-align: center
+font-size: x-large;
 }
+
 li:hover{
     background-color: black;
+    width: 220px
 }
 
 a{
@@ -43,9 +49,17 @@ color: aliceblue;
 a:hover{
     background-color: black;
 }
-img{
+#foto{
     border-radius: 100px;
-    margin-left: 250px; 
+    margin-left: 550px; 
+}
+
+.extra{
+  font-size: x-large;
+  color: aliceblue;
+  display: inline-block;
+  width: 24%;
+  height: 150px;
 }
 
 
